@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    background-image: linear-gradient(90deg, rgba(81,81,89,1), rgb(155,155,155));
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.perfil__icono {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    height: auto;
+    max-width: 100px;
+}
+
+.perfil__nombre {
+    text-align: center;
+    padding: auto;
+}
+
+.perfil__descripcion {
+    text-align: center;
+    padding: auto;
+}
+
