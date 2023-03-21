@@ -39,3 +39,20 @@ img {
     margin-top: 1%;
 }
 
+div .perfil__redessocial {
+    margin: auto;
+    column-gap: 5px;
+    text-align: center;
+    margin-top: 5px;
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+div .perfil__redessocial a {
+    padding: 10px 12px;
+    
+}
+
+
