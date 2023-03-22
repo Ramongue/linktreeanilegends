@@ -34,12 +34,12 @@ img {
     padding: auto;
 }
 
-.perfil__redessocial {
-    margin-left: 42px;
+.perfil__rs {
+    margin-left: 42%;
     margin-top: 1%;
 }
 
-div .perfil__redessocial {
+div.perfil__rs {
     margin: auto;
     column-gap: 5px;
     text-align: center;
@@ -50,9 +50,50 @@ div .perfil__redessocial {
     text-decoration: none;
 }
 
-div .perfil__redessocial a {
+div.perfil__rs a {
     padding: 10px 12px;
-    
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    margin-bottom: 2px;
+}
+
+.fa {
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: #d37a42;
+}
+
+.perfil__links a {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid white;
+    border-width: 2px;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.perfil__links a:hover {
+    color: #d37a42;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
 }
 
 
